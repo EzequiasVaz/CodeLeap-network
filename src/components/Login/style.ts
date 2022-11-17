@@ -69,4 +69,8 @@ export const LoginButton = styled('button', {
     color: 'white',
     mt: '12px',
     cursor: 'pointer',
+
+    '&:focus-visible': {
+        outline: '3px solid $blackThird'
+    }
 })

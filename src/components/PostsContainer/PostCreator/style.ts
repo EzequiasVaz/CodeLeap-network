@@ -108,7 +108,7 @@ export const PostCreatorButton = styled('button', {
     mt: '12px',
     cursor: 'pointer',
 
-    '&:focus': {
+    '&:focus-visible': {
         outline: '3px solid $blackThird'
     }
 })

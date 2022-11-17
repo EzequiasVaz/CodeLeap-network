@@ -104,5 +104,8 @@ export const UserLogout = styled('button', {
 
     '&:hover': {
         color: '$blackThird'
+    }, '&:focus-visible': {
+        color: '$blackThird',
+        outline: '1px solid $blackThird',
     }
 })

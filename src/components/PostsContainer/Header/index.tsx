@@ -40,7 +40,7 @@ export function HeaderPostContainer() {
                         dispatch(setRemoveUsername())
                         navigate('/')
                     }
-                    }><SignOut size={24} /></UserLogout>
+                    } tabIndex={0}><SignOut size={24} /></UserLogout>
                 </HeaderNavigation>
             </HeaderRightSide>
         </Header >

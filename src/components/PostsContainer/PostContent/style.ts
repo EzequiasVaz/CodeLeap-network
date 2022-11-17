@@ -47,7 +47,7 @@ export const PostDeleteButton = styled('button', {
     justifyContent: 'center',
     '&:hover': {
         color: '$blackThird'
-    }, '&:focus': {
+    }, '&:focus-visible': {
         color: '$blackThird',
         outline: '1px solid $blackThird',
     }
@@ -60,7 +60,7 @@ export const PostEditButton = styled('button', {
     '&:hover': {
         color: '$blackThird'
     },
-    '&:focus': {
+    '&:focus-visible': {
         color: '$blackThird',
         outline: '1px solid $blackThird',
     }
