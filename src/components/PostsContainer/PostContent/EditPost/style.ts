@@ -91,6 +91,7 @@ export const PostEditInputContent = styled('textarea', {
     px: '16px',
     fontWeight: '$4',
     color: '$blackPrincipal',
+    resize: 'none',
 
     '&::placeholder': {
         color: "$unselected"
